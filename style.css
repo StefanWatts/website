@@ -1,5 +1,5 @@
 :root {
-  --green: #00FF00;
+  -blue: #64cedc;
   --white: #FFFFFF;
   --black: #000000;
 }
@@ -21,14 +21,14 @@ li {
 /*Provides font formating*/
 
 .light-theme {
-  --bg: var(--green);
+  --bg: var(--blue);
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
 }
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--green);
+  --fontColor: var(--blue);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
 }
