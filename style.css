@@ -1,7 +1,7 @@
 :root {
-  -blue: #64cedc;
+  -blue: #6bdbea;
   --white: #FFFFFF;
-  --black: #000000;
+  --black: #000000b2;
 }
 /*Provides constants to the html file*/
 
@@ -28,8 +28,8 @@ li {
 }
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--blue);
-  --btnBg: var(--white);
+  --fontColor: var(--white);
+  --btnBg: var(--blue);
   --btnFontColor: var(--black);
 }
 /*provides colour theme to webpage linked to html*/
