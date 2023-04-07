@@ -1,5 +1,5 @@
 :root {
-  -blue: #6bdbea;
+  -blue: #8bea6b;
   --white: #FFFFFF;
   --black: #000000b2;
 }
@@ -37,6 +37,39 @@ h3 {
   padding-bottom: 1em;
 }
 
+  main { 
+        display: grid;
+        grid-template-columns: 25% 75%;
+        margin-top: 3em;
+    }
+
+    header {
+        text-align: center;
+        margin: auto 2em;
+    }
+    
+    section {
+        margin: auto 1em 4em 2em;
+    }
+    
+    i {
+        margin-right: .5em;
+    }
+    
+    p {
+        margin: .2em auto
+    }
+    
+    hr {
+        border: none;
+        background-color: lightgray;
+        height: 1px;
+    }
+       
+    #mainLeft {
+        border-right: 1px solid lightgray;
+    }
+
 h1, h2, h3 {
   font-weight: 100;
   margin-bottom: 0;
@@ -68,7 +101,7 @@ li {
 .btn {
     position: absolute;
   top: 20px;
-  left: 300px;
+  left: 1100px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -80,8 +113,8 @@ li {
 
 .avatar {
   position: absolute;
-  top: 100px;
-  left: 250px;
+  top: 70px;
+  left: 150px;
   vertical-align: middle;
   width: 100px;
   height: 100px;
