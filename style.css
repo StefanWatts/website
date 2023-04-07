@@ -61,13 +61,13 @@ h3 {
     }
     
     hr {
-        border: none;
-        background-color: var(--background-color);
+        border: solid;
+        border-top: #7ce9ed;
         height: 1px;
     }
        
     #mainLeft {
-        border-right: 1px solid 
+        border-right: 2px solid
     }
 
 h1, h2, h3 {
@@ -80,7 +80,7 @@ li {
 }
 
 .list {
-  list-style: square;
+  list-style: circle;
 }
 /*Provides font formating*/
 
@@ -91,6 +91,7 @@ li {
   --btnFontColor: var(--white);
   --border-right: var(--black);
   --background-color: var(--black);
+  --border-top: var(--black);
 }
 .dark-theme {
   --bg: var(--black);
@@ -99,6 +100,7 @@ li {
   --btnFontColor: var(--black);
   --border-right: var(--white);
   --background-color: var(--black);
+  --border-top:var(--white);
 }
 /*provides colour theme to webpage linked to html*/
 
@@ -118,7 +120,7 @@ li {
 .avatar {
   position: absolute;
   top: 70px;
-  left: 150px;
+  left: 100px;
   vertical-align: middle;
   width: 100px;
   height: 100px;

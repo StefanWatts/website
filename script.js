@@ -10,9 +10,9 @@ switcher.addEventListener('click', function() {
 //adds event handler (function) for click event
      const className = document.body.className;
     if(className == "light-theme") {
-        this.textContent = "Dark";
+        this.textContent = "Dark Mode";
     } else {
-        this.textContent = "Light";
+        this.textContent = "Light Mode";
     }
 //if statement determines what to do if already on certain theme
 
