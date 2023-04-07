@@ -62,12 +62,12 @@ h3 {
     
     hr {
         border: none;
-        background-color: lightgray;
+        background-color: var(--background-color);
         height: 1px;
     }
        
     #mainLeft {
-        border-right: 1px solid lightgray;
+        border-right: 1px solid 
     }
 
 h1, h2, h3 {
@@ -89,12 +89,16 @@ li {
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
+  --border-right: var(--black);
+  --background-color: var(--black);
 }
 .dark-theme {
   --bg: var(--black);
   --fontColor: var(--white);
   --btnBg: var(--blue);
   --btnFontColor: var(--black);
+  --border-right: var(--white);
+  --background-color: var(--black);
 }
 /*provides colour theme to webpage linked to html*/
 
