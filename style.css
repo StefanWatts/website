@@ -118,13 +118,14 @@ li {
 /*adds formatting to html button*/
 
 .avatar {
-  position: absolute;
-  top: 70px;
-  left: 100px;
+  position: relative;
+  display: inline-block;
+  margin-right: 1em; 
   vertical-align: middle;
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  overflow: hidden;
 }
 /* adds formatting to image - rounds avatar */
 
