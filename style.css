@@ -117,7 +117,7 @@ li {
 .btn {
     position: fixed;
   top: 10%;
-  left: 90%;
+  left: 85%;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -129,6 +129,7 @@ li {
 
 .avatar {
   position: relative;
+  left: 3%;
   display: inline-block;
   margin-right: 1em; 
   vertical-align: middle;
