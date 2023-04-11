@@ -49,6 +49,11 @@ h3 {
     header {
         text-align: center;
         margin: auto 2em;
+        position: relative;
+        display: inline-block;
+        margin-right: 1em; 
+        vertical-align: middle;
+        overflow: hidden;
     }
     
     section {
